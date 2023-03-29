@@ -1,0 +1,50 @@
+/* 
+google fonts 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/background.png);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.weatherBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 123px;
+}
+#getValue{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: rgb(0, 0, 0) 5px solid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.text-container{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.weather{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 10px;
+}
+.min-max{
+    font-size: 25px;
+    color: white;
+}
