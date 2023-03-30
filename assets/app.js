@@ -1,5 +1,5 @@
 const url = "https://api.openweathermap.org/data/2.5/weather";
-const key = "11383f06a43fd5c3c743ac7d5f5120f6";
+const key = ""; // There is a link in the readme.md file
 
 const input = document.querySelector("#getValue")
 input.addEventListener("keypress",query =(e)=>{
